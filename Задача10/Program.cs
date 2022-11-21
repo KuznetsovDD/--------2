@@ -1,6 +1,6 @@
 ﻿Console.Write("Введите 3-х значное число: ");
 int numb = Convert.ToInt32(Console.ReadLine());
-if (numb > 100 && numb < 999 )
+if (numb > 100 && numb < 1000 )
 {
     int numb2 = numb/10 - numb/100*10;
     Console.WriteLine("Вторая цифра числа" + " " + numb2 );
